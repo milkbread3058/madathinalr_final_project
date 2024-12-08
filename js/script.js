@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     menuIcon.addEventListener('click', () => {
         navMenu.classList.toggle('active');
         menuIcon.textContent = navMenu.classList.contains('active') ? '✖' : '☰';
-        content.style.marginTop = navMenu.classList.contains('active') ? '100px' : '0'; // Adjust based on the number of menu items
+        content.style.marginTop = navMenu.classList.contains('active') ? '150px' : '0'; 
     });
 });
 

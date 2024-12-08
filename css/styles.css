@@ -39,6 +39,11 @@ header {
     background-color: #23073f;
 }
 
+.photo-creds{
+    font-size: x-small;
+    text-align: center;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
@@ -48,31 +53,6 @@ footer {
 
 
 /* Index */
-.homepage-image {
-    width: 30%;
-    max-width: 100%;
-    margin-right: 20px;
-}
-
-.image-text-container {
-    display: flex;
-    align-items: center;
-}
-
-.index-caption{
-    font-size: smaller;
-    text-align: center;
-}
-
-.homepage-image {
-    width: 30%;
-    margin-right: auto;
-}
-
-.text-content {
-    flex-grow: 1;
-}
-
 .about-us-box {
     padding: 2rem;
     background-color: white;
@@ -81,12 +61,18 @@ footer {
     text-align: center;
 }
 
-.about-us-box h1 {
-    font-size: x-large;
+.homepage-image {
+    width: 30%;
+    margin-right: auto;
 }
 
-.about-us-box h2 {
-    font-size: smaller;
+.image-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-us-box h1 {
+    font-size: x-large;
 }
 
 .join-us {
@@ -169,7 +155,6 @@ footer {
     justify-content: center;
 }
 
-
 .grid-item {
     text-align: center;
 }
@@ -182,19 +167,13 @@ footer {
     margin: 0 auto;
 }
 
-.grid-item figcaption {
-    margin-top: 0.5rem;
-    font-size: 0.8rem;
-    color: #555;
-    text-align: center;
-}
-
 .grid-item p {
     margin-top: 1rem;
     text-align: center;
 }
 
 /* Contact */
+
 .content {
     padding: 2rem;
 }
