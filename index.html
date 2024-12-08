@@ -3,60 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNC Moonlight Dance Crew</title>
+    <title>Rini Final Project - UNC Moonlight</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        </style>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
     <header>
-        <h1>UNC Moonlight Dance Crew</h1>
+        <div class="logo">UNC Moonlight Dance Crew</div>
+        <div class="menu-icon">☰</div>
+        <nav class="nav-menu">
+            <a href="index.html" class="active">About MNLT</a>
+            <a href="join.html">Join Us</a>
+            <a href="exec.html">Exec Board</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </header>
+    <div class="content">
+        <div class="main-content">
+            <section class="about-us-box">
+                <div class="image-text-container">
+                    <img class="homepage-image" src="img/mnlt_entropy.png" alt="Moonlight Dance Crew 2024">
+                    <div class="text-content">
+                        <h1>About Us</h1>
+                        <p>UNC Moonlight Dance Crew is a vibrant hip-hop dance team dedicated to showcasing our passion for dance through high-energy performances and innovative choreography. We strive to create a welcoming and inclusive community for dancers of all backgrounds.</p>
+                        <a class="join-us" href="join.html">Join Us!</a>
+                        <p class="index-caption">Photo credit: @uncmoonlight on Instagram</p>
+                    </div>
+                </div>
+            </section>
+        </div>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#performances">Performances</a></li>
-            <li><a href="#join">Join Us</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <main>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>The UNC Moonlight Dance Crew is a vibrant hip-hop dance team dedicated to showcasing our passion for dance through high-energy performances and innovative choreography. We strive to create a welcoming and inclusive community for dancers of all backgrounds.</p>
-            <img src="images/crew_photo.jpg" alt="UNC Moonlight Dance Crew performing">
+        <h1 class="events-title">Events</h1>
+        <section class="index-images">
+            <div class="index-image-container">
+                <img src="img/workshop.png" alt="MNLT Workshop">
+                <p class="index-caption">Photo credit: @uncmoonlight on Instagram</p>
+                <p>Guest Workshops</p>
+            </div>
+            <div class="index-image-container">
+                <img src="img/winter_showcase.png" alt="Winter Showcase">
+                <p class="index-caption">Photo credit: @uncmoonlight on Instagram</p>
+                <p>Winter Showcase 2024</p>
+            </div>
+            <div class="index-image-container">
+                <img src="img/auditions.png" alt="Fall Auditions">
+                <p class="index-caption">Photo credit: @uncmoonlight on Instagram</p>
+                <p>Fall 2024 Auditions</p>
+            </div>
         </section>
-        
-        <section id="performances">
-            <h2>Performances</h2>
-            <p>We perform at various events on and off campus, including:
-                <ul>
-                    <li>Campus events and festivals</li>
-                    <li>Local and regional competitions</li>
-                    <li>Charity events</li>
-                </ul>
-            </p>
-            <p>Check out our YouTube channel and Instagram for highlights of our performances.</p>
-        </section>
-        
-        <section id="join">
-            <h2>Join Us</h2>
-            <p>If you're passionate about dance and want to be part of our team, we encourage you to audition! 
-        Auditions typically take place at the beginning of each semester. 
-        Stay tuned to our social media for updates.</p>
-    </section>
+    </div>
     
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>For inquiries, email us at: <a href="mailto:moonlightdancecrew@unc.edu">moonlightdancecrew@unc.edu</a></p>
-    </section>
-</main>
-
-<footer>
-    <p>© UNC Moonlight Dance Crew - <?php echo date("Y"); ?></p>
-</footer>
-
+    <footer>
+        <p>© rinirose</p>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
