@@ -98,6 +98,10 @@ footer {
     100% { background-color: #340a5f; }
 }
 
+.events-header{
+    padding: 1rem
+}
+
 .index-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
